@@ -13,11 +13,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    NgModule,
+    NgbModule,
     UiModule,
     LoginModule,
     FontAwesomeModule
-     ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
