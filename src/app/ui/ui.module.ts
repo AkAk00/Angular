@@ -5,6 +5,7 @@ import { UiComponent } from './containers/ui/ui.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { RouterModule, Router } from '@angular/router';
 
 
 
@@ -12,6 +13,7 @@ import { HeaderComponent } from './components/header/header.component';
   declarations: [UiComponent, NavComponent, FooterComponent, HeaderComponent],
   imports: [
     CommonModule,
+    RouterModule,
     CoderbaseUiModule
   ],
   exports: [UiComponent]
