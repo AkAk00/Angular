@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PrestationsComponent } from './pages/prestations/prestations.component';
 import { PrestationsRoutingModule } from './prestations-routing.module';
 import { ListPrestationsComponent } from './containers/list-prestations/list-prestations.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -10,7 +11,8 @@ import { ListPrestationsComponent } from './containers/list-prestations/list-pre
   declarations: [PrestationsComponent, ListPrestationsComponent],
   imports: [
     CommonModule,
-    PrestationsRoutingModule
+    PrestationsRoutingModule,
+    SharedModule
   ]
 })
 export class PrestationsModule { }
