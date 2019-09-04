@@ -47,4 +47,3 @@ export class RoutingModule {
     console.log('Routes: ', JSON.stringify(router.config, replacer, 2));
   }
 }
-
