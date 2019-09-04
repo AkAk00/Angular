@@ -21,7 +21,7 @@ pathMatch: 'full'
 },
 
 {
-  path: 'page-not-found',
+  path: '**',
   loadChildren: () => import('src/app/page-not-found/page-not-found.module').then(mod => mod.PageNotFoundModule),
 },
 
